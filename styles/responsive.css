@@ -54,6 +54,19 @@ main, aside {
     display: block;
 }
 
+#hero p {
+    color: #F68979;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
 figure {
     width: 400px;
     max-width: 92%;
@@ -87,4 +100,13 @@ figcaption {
 .grayscale:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1E1E1E;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
 }
