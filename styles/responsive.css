@@ -49,3 +49,42 @@ main, aside {
 	margin-right: 4%
 }
 
+#hero img {
+    max-width: 100%;
+    display: block;
+}
+
+figure {
+    width: 400px;
+    max-width: 92%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figcaption {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 0.75em;
+    text-transform: uppercase;
+
+}
+
+/* using the freyscale filter */
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* making the image responsive */
+/* removing greyscale filter on hovering */
+.grayscale:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
