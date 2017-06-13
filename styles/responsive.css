@@ -44,6 +44,82 @@ h2 {
     font-size: 2.25em;
 }
 
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+    color: #F68979;
+}
+
+a:visited {
+    color: #FF944C;
+}
+
+a:hover, a:active, a:focus {
+    color: #7F3300;
+    text-decoration: underline;
+}
+
+#menulink {
+    background-color: #1E1E1E;
+    margin: 0;
+    text-align: center;
+}
+
+#menulink a {
+    color: white;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-decoration: none;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+#navlinks {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #000000;
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    -webkit-transition: all ease-out 0.5s;
+    transition: all ease-out 0.5s;
+}
+
+#navlinks.displayed {
+    top: 135px;
+    z-index: 1;
+    opacity: 1;
+}
+
+#navlinks.start {
+    display: none;
+}
+
+#navlinks.collapsed {
+    top: -12em;
+    opacity: 0;
+}
+
+#navlinks a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
+	color: #F68979;
+}
+
 main, aside {
 	margin-left: 4%;
 	margin-right: 4%
