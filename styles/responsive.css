@@ -254,7 +254,7 @@ footer {
 	}
 }
 
-
+/* flaoting text around images */
 @media (min-width: 900px) {
 	.floatright {
 		float: right;
