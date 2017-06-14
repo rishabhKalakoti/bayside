@@ -186,3 +186,51 @@ footer {
     font-size: 0.8em;
     text-align: center;
 }
+
+
+@media (min-width: 700px) {
+	#menulink {
+		display: none;
+	}
+	
+	#navlinks {
+		max-width: 1000px;
+		position: static;
+		background-color: transparent;
+	}
+	
+	#navlinks.collapsed {
+		opacity: 1;
+	}
+	
+	#navlinks a {
+		width: 20%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-bottom: 20px;
+		float: left;
+		color: #1E1E1E;
+	}
+	
+	header {
+		overflow: hidden;
+	}
+	
+	#hero p {
+		width: 36%;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 20px;
+		position: absolute;
+		color: white;
+		border-width: 5px;
+		border-style: solid;
+		top: 90px;
+		right: 33px;
+	}
+	
+	#hero {
+		position: relative;
+	}
+
+}
